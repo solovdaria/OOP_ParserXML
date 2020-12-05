@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+			xmlns:cnd = "http://NamespaceTest.com/CandyType">
+
+<xs:import schemaLocation = "CandyType.xsd" namespace = "http://NamespaceTest.com/CandyType" />
+
+<xs:element name='collection'>
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name='candy' type='cnd:CandyType' minOccurs='0' maxOccurs='unbounded' />
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+</xs:schema>

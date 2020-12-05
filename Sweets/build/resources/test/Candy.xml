@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+
+
+<cnd:collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://NamespaceTest.com/Candy.xsd"
+				xmlns:cnd="http://NamespaceTest.com/Candy"
+				xmlns:cndt="http://NamespaceTest.com/CandyType"
+				xmlns:ing="http://NamespaceTest.com/IngridientsType"
+				xmlns:nm="http://NamespaceTest.com/EnumType"
+				xmlns:val="http://NamespaceTest.com/ValueType">
+
+	<cndt:candy nm:type = "TYPE3" id = "id1">
+		<cndt:name>Name1</cndt:name>
+		<cndt:production>prod1</cndt:production>
+		<cndt:energy>100</cndt:energy>
+		<ing:ingridients>
+			<ing:water>10</ing:water>
+			<ing:sugar>10</ing:sugar>
+			<ing:fructose>10</ing:fructose>
+		</ing:ingridients>
+		<val:value>
+			<val:protein>100</val:protein>
+			<val:fat>100</val:fat>
+			<val:carbohydrate>100</val:carbohydrate>
+		</val:value>
+	</cndt:candy>
+
+	<cndt:candy nm:type = "TYPE2" id = "id2">
+		<cndt:name>Name2</cndt:name>
+		<cndt:production>prod2</cndt:production>
+		<cndt:energy>200</cndt:energy>
+		<ing:ingridients>
+			<ing:water>20</ing:water>
+			<ing:sugar>20</ing:sugar>
+			<ing:fructose>20</ing:fructose>
+		</ing:ingridients>
+		<val:value>
+			<val:protein>200</val:protein>
+			<val:fat>200</val:fat>
+			<val:carbohydrate>200</val:carbohydrate>
+		</val:value>
+	</cndt:candy>
+
+	<cndt:candy nm:type = "TYPE3" id = "id3">
+		<cndt:name>Name3</cndt:name>
+		<cndt:production>prod3</cndt:production>
+		<cndt:energy>300</cndt:energy>
+		<ing:ingridients>
+			<ing:water>30</ing:water>
+			<ing:sugar>30</ing:sugar>
+			<ing:fructose>30</ing:fructose>
+		</ing:ingridients>
+		<val:value>
+			<val:protein>300</val:protein>
+			<val:fat>300</val:fat>
+			<val:carbohydrate>300</val:carbohydrate>
+		</val:value>
+	</cndt:candy>
+
+	<cndt:candy nm:type = "TYPE3" id = "id0">
+		<cndt:name>Name4</cndt:name>
+		<cndt:production>prod4</cndt:production>
+		<cndt:energy>400</cndt:energy>
+		<ing:ingridients>
+			<ing:water>40</ing:water>
+			<ing:sugar>40</ing:sugar>
+			<ing:fructose>40</ing:fructose>
+		</ing:ingridients>
+		<val:value>
+			<val:protein>400</val:protein>
+			<val:fat>400</val:fat>
+			<val:carbohydrate>400</val:carbohydrate>
+		</val:value>
+	</cndt:candy>
+
+</cnd:collection>

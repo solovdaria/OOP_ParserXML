@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+			xmlns:ing = "http://NamespaceTest.com/IngridientsType"
+			xmlns:nm = "http://NamespaceTest.com/EnumType"
+			xmlns:vl = "http://NamespaceTest.com/ValueType"
+			targetNamespace = "http://NamespaceTest.com/CandyType">
+
+<xs:import schemaLocation = "IngridientsType.xsd" namespace = "http://NamespaceTest.com/IngridientsType" />
+<xs:import schemaLocation = "EnumType.xsd" namespace = "http://NamespaceTest.com/EnumType" />
+<xs:import schemaLocation = "ValueType.xsd" namespace = "http://NamespaceTest.com/ValueType" />
+
+<xs:complexType name="CandyType">
+	<xs:sequence>
+		<xs:element name="name" type="xs:string"/>
+		<xs:element name="production" type="xs:string"/>
+		<xs:element name="energy" type="xs:positiveInteger"/>
+		<xs:element name="ingridients" type="ing:IngridientsType"/>
+		<xs:element name="value" type="vl:ValueType"/>
+	</xs:sequence>
+	<xs:attribute name='type' type='nm:EnumType'/>
+	<xs:attribute name='id' type='xs:ID'/>
+</xs:complexType>	
+
+
+</xs:schema>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+			targetNamespace = "http://NamespaceTest.com/EnumType">
+	
+	<xs:simpleType name="EnumType">
+  		<xs:restriction base="xs:string">
+    		<xs:enumeration value="MILK" />
+    		<xs:enumeration value="DARK" />
+    		<xs:enumeration value="SWEET" />
+  		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

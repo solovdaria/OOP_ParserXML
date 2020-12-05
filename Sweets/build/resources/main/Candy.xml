@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+
+<collection>
+<candy type = "MILK" id = "id1">
+		<name>Name1</name>
+		<production>prod1</production>
+		<energy>100</energy>
+		<ingridients>
+			<water>10</water>
+			<sugar>10</sugar>
+		</ingridients>
+		<value>
+			<protein>100</protein>
+			<fat>100</fat>
+			<carbohydrate>100</carbohydrate>
+		</value>
+	</candy>
+	
+		<candy type = "DARK" id = "id2">
+		<name>Name2</name>
+		<production>prod2</production>
+		<energy>200</energy>
+		<ingridients>
+			<water>20</water>
+			<fructose>20</fructose>
+		</ingridients>
+		<value>
+			<protein>200</protein>
+			<fat>200</fat>
+			<carbohydrate>200</carbohydrate>
+		</value>
+	</candy>
+	
+		<candy type = "SWEET" id = "id3">
+		<name>Name3</name>
+		<production>prod3</production>
+		<energy>300</energy>
+		<ingridients>
+			<water>30</water>
+			<sugar>30</sugar>
+			<fructose>30</fructose>
+		</ingridients>
+		<value>
+			<protein>300</protein>
+			<fat>300</fat>
+			<carbohydrate>300</carbohydrate>
+		</value>
+	</candy>
+	
+		<candy type = "MILK" id = "id0">
+		<name>Name4</name>
+		<production>prod4</production>
+		<energy>400</energy>
+		<ingridients>
+			<water>40</water>
+			<sugar>40</sugar>
+		</ingridients>
+		<value>
+			<protein>400</protein>
+			<fat>400</fat>
+			<carbohydrate>400</carbohydrate>
+		</value>
+	</candy>
+	
+</collection>

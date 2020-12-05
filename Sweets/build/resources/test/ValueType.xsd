@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+			targetNamespace = "http://NamespaceTest.com/ValueType">
+	
+	<xs:complexType name="ValueType">
+		<xs:sequence>
+			<xs:element name="protein" type="xs:positiveInteger"/>
+			<xs:element name="fat" type="xs:positiveInteger"/>
+			<xs:element name="carbohydrate" type="xs:positiveInteger"/>
+		</xs:sequence>
+	</xs:complexType>
+
+</xs:schema>

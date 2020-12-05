@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+			targetNamespace = "http://NamespaceTest.com/IngridientsType">
+	
+	<xs:complexType name="IngridientsType">
+		<xs:sequence>
+			<xs:element name="water" type="xs:positiveInteger" minOccurs="0"/>
+			<xs:element name="sugar" type="xs:positiveInteger" minOccurs="0"/>
+			<xs:element name="fructose" type="xs:positiveInteger" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>	
+
+</xs:schema>
